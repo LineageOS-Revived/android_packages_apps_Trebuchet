@@ -98,7 +98,7 @@ public class AppInfo extends ItemInfo {
             isDisabled |= ShortcutInfo.FLAG_DISABLED_QUIET_USER;
         }
 
-        iconCache.getTitleAndIcon(this, info, true /* useLowResIcon */);
+        iconCache.getTitleAndIcon(this, info, false /* useLowResIcon */);
         intent = makeLaunchIntent(context, info, user);
         this.user = user;
     }
