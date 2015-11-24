@@ -22,6 +22,7 @@
     package="com.android.launcher3"
     coreApp="true"
     android:sharedUserId="android.uid.system">
+    <original-package android:name="com.android.launcher3" />
     <uses-sdk android:targetSdkVersion="23" android:minSdkVersion="21"/>
     <!--
     Manifest entries specific to Launcher3. This is merged with AndroidManifest-common.xml.

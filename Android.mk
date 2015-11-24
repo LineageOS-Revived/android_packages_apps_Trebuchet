@@ -47,9 +47,9 @@ LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
     --extra-packages android.support.v7.recyclerview \
 
-LOCAL_PACKAGE_NAME := Launcher3
+LOCAL_PACKAGE_NAME := Trebuchet
 LOCAL_CERTIFICATE := platform
-LOCAL_OVERRIDES_PACKAGES := Home Launcher2
+LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3
 LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-common.xml
