@@ -3081,6 +3081,7 @@ public class Launcher extends Activity
         } else {
             Log.w(TAG, "Opening folder (" + folder + ") which already has a parent (" +
                     folder.getParent() + ").");
+            return;
         }
         folder.animateOpen();
 
