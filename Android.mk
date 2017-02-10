@@ -208,6 +208,7 @@ else
   LOCAL_MIN_SDK_VERSION := 26
 endif
 LOCAL_PACKAGE_NAME := TrebuchetQuickStep
+LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3 Launcher3QuickStep
