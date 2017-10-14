@@ -47,6 +47,8 @@ LOCAL_SRC_FILES := \
     $(call all-proto-files-under, protos) \
     $(call all-proto-files-under, proto_overrides)
 
+LOCAL_CERTIFICATE := platform
+
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
     frameworks/support/design/res \
