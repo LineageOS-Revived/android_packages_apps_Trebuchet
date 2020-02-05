@@ -121,6 +121,8 @@ public final class Utilities {
 
     public static final String KEY_ALLOW_WALLPAPER_ZOOM = "pref_allow_wallpaper_zoom";
 
+    public static final String SLEEP_GESTURE = "pref_sleep_gesture";
+
     /**
      * Set on a motion event dispatched from the nav bar. See {@link MotionEvent#setEdgeFlags(int)}.
      */
@@ -701,5 +703,9 @@ public final class Utilities {
     public static boolean canZoomWallpaper(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_ALLOW_WALLPAPER_ZOOM, true);
+    }
+
+    public static boolean useSleepGesture(Context context) {
+        return getPrefs(context).getBoolean(SLEEP_GESTURE, true);
     }
 }
