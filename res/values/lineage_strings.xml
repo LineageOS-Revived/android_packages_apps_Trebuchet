@@ -55,4 +55,8 @@
     <string name="icon_pack_default_label">Default</string>
     <string name="icon_pack_add">Install more</string>
     <string name="icon_pack_no_market">There\'s no available app store</string>
+
+    <!-- Wallpaper zoom -->
+    <string name="enable_wallpaper_zoom_title">Enable wallpaper zooming</string>
+    <string name="enable_wallpaper_zoom_summary">Zoom in or out the wallpaper when using drawer or recent apps</string>
 </resources>
