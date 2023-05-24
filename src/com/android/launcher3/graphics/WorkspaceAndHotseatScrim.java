@@ -255,7 +255,7 @@ public class WorkspaceAndHotseatScrim extends Scrim {
     }
 
     private void reapplySysUiAlphaNoInvalidate() {
-        float factor = mSysUiProgress * mSysUiAnimMultiplier;
+        float factor = 0.0f;
         mBottomMaskPaint.setAlpha(Math.round(MAX_HOTSEAT_SCRIM_ALPHA * factor));
         if (mTopScrim != null) {
             mTopScrim.setAlpha(Math.round(255 * factor));
