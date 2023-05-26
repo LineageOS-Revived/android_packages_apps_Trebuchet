@@ -110,6 +110,20 @@ public final class IconPackSettingsFragment extends RadioSettingsFragment {
                 new Intent("com.novalauncher.THEME"), 0));
         eligiblePacks.addAll(pm.queryIntentActivities(
                 new Intent("org.adw.launcher.icons.ACTION_PICK_ICON"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.dlto.atom.launcher.THEME"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("android.intent.action.MAIN").addCategory("com.anddoes.launcher.THEME"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.fede.launcher.THEME_ICONPACK"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.anddoes.launcher.THEME"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.teslacoilsw.launcher.THEME"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.gau.go.launcherex.theme"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("org.adw.launcher.THEMES"), 0));
 
         // Add default
         final String defaultLabel = context.getString(R.string.icon_pack_default_label);
