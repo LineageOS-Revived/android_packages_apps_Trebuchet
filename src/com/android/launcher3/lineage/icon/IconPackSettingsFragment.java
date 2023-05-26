@@ -124,6 +124,40 @@ public final class IconPackSettingsFragment extends RadioSettingsFragment {
                 new Intent("com.gau.go.launcherex.theme"), 0));
         eligiblePacks.addAll(pm.queryIntentActivities(
                 new Intent("org.adw.launcher.THEMES"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.launcher.smart.theme"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.gtp.nextlauncher.theme"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.gridappsinc.launcher.theme.apk_action"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("ch.deletescape.lawnchair.ICONPACK"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.lge.launcher2.THEME"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("net.oneplus.launcher.icons.ACTION_PICK_ICON"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("ginlemon.smartlauncher.THEMES"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("home.solo.launcher.free.THEMES"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("home.solo.launcher.free.ACTION_ICON"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.sonymobile.home.ICON_PACK"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.tsf.shell.themes"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.tsf.shell.themes"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.phonemetra.turbo.launcher.THEMES"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.phonemetra.turbo.launcher.icons.ACTION_PICK_ICON"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("mobi.bbase.ahome.THEME"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.rogro.GDE.THEME.1"), 0));
+        eligiblePacks.addAll(pm.queryIntentActivities(
+                new Intent("com.android.dxtop.launcher.THEME"), 0));
 
         // Add default
         final String defaultLabel = context.getString(R.string.icon_pack_default_label);
