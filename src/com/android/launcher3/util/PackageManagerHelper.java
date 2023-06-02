@@ -24,6 +24,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.ResolveInfo;
 import android.os.Build;
+import android.os.Bundle;
 import android.text.TextUtils;
 
 import com.android.launcher3.Utilities;
@@ -109,6 +110,18 @@ public class PackageManagerHelper {
      */
     public static boolean hasPermissionForActivity(Context context, Intent intent,
             String srcPackage) {
+        // b/270152142
+        if (Intent.ACTION_CHOOSER.equals(intent.getAction())) {
+            final Bundle extras = intent.getExtras();
+            if (extras == null) {
+                return true;
+            }
+            // If given intent is ACTION_CHOOSER, verify srcPackage has permission over EXTRA_INTENT
+            intent = (Intent) extras.getParcelable(Intent.EXTRA_INTENT);
+            if (intent == null) {
+                return true;
+            }
+        }
         PackageManager pm = context.getPackageManager();
         ResolveInfo target = pm.resolveActivity(intent, 0);
         if (target == null) {
