@@ -17,12 +17,17 @@ package com.android.quickstep;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.ImageDecoder;
 import android.os.UserManager;
 import android.util.Log;
 
+
 import com.android.launcher3.BuildConfig;
 import com.android.launcher3.MainProcessInitializer;
+import com.android.launcher3.R;
 import com.android.systemui.shared.system.ThreadedRendererCompat;
+
+import java.util.Set;
 
 @SuppressWarnings("unused")
 public class QuickstepProcessInitializer extends MainProcessInitializer {
@@ -51,5 +56,19 @@ public class QuickstepProcessInitializer extends MainProcessInitializer {
         // Elevate GPU priority for Quickstep and Remote animations.
         ThreadedRendererCompat.setContextPriority(
                 ThreadedRendererCompat.EGL_CONTEXT_PRIORITY_HIGH_IMG);
+
+        setupImageDecoder(context);
     }
+
+    private void setupImageDecoder(Context context) {
+        // Limit the max memory usage.
+        int maxMemoryMb = context.getResources().getInteger(R.integer.max_launcher_memory_mb);
+        long maxMemoryBytes = maxMemoryMb * 1024L * 1024L;
+        // Get the allowed mime types from the resources.
+        Set<String> allowedMimeTypes = Set.of(context.getResources().getStringArray(
+                R.array.allowed_image_mime_types));
+        ImageDecoder.setDefaultProcessListener(
+                new LauncherProcessImageListener(maxMemoryBytes, allowedMimeTypes));
+    }
+
 }

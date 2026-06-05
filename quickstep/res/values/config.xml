@@ -37,4 +37,21 @@
     <integer name="assistant_gesture_corner_deg_threshold">20</integer>
 
     <string name="wellbeing_provider_pkg" translatable="false"/>
+
+    <!-- The max memory usage of a single image for the Launcher process in MB -->
+    <integer name="max_launcher_memory_mb">300</integer>
+
+    <!-- The list of mime types that are allowed to be decoded for the Launcher process. -->
+    <string-array name="allowed_image_mime_types" translatable="false">
+        <item>image/png</item>
+        <item>image/jpeg</item>
+        <item>image/webp</item>
+        <item>image/gif</item>
+        <item>image/bmp</item>
+        <item>image/x-ico</item>
+        <item>image/vnd.wap.wbmp</item>
+        <item>image/heif</item>
+        <item>image/heic</item>
+        <item>image/avif</item>
+    </string-array>
 </resources>
