@@ -15,12 +15,12 @@
 -->
 <resources>
     <string name="settings_lock_layout_title">Bloquear esquema</string>
-    <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos e movidos no ecrã inicial</string>
-    <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos e movidos no ecrã inicial</string>
-    <string name="settings_edit_widgets_error">Não é possível adicionar widgets ao ecrã inicial</string>
+    <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos e movidos na Página Inicial</string>
+    <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos e movidos na Página Inicial</string>
+    <string name="settings_edit_widgets_error">Não é possível adicionar widgets à Página Inicial</string>
     <string name="title_show_google_app">Mostrar aplicação Google</string>
-    <string name="msg_minus_one_on_left">Ao deslizar para a direita no ecrã inicial</string>
-    <string name="msg_minus_one_on_right">Ao deslizar para a esquerda no ecrã inicial</string>
+    <string name="msg_minus_one_on_left">Ao deslizar para a direita na Página Inicial</string>
+    <string name="msg_minus_one_on_right">Ao deslizar para a esquerda na Página Inicial</string>
     <string name="pref_themed_icons_title">Utilizar ícones temáticos na gaveta de aplicações</string>
     <string name="pref_themed_icons_summary">Usar o mesmo estilo dos ícones da Página Inicial</string>
     <string name="desktop_show_labels">Mostrar as legendas dos ícones na área de trabalho</string>

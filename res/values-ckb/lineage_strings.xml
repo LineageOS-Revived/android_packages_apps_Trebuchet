@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="settings_lock_layout_title">قوفڵکردنی ڕێکخستنی پەڕە</string>
+    <string name="settings_lock_layout_summary_on">وێنۆچکە و قەدبڕەکان ناتوانرێن زیاد بکرێن، لاببرێن یان بجوڵێنرێن لە پەڕەی ماڵەوەدا</string>
+    <string name="settings_lock_layout_summary_off">وێنۆچکە و قەدبڕەکان دەتوانرێن زیاد بکرێن، لاببرێن یان بجوڵێنرێن لە پەڕەی ماڵەوەدا</string>
+    <string name="settings_edit_widgets_error">ناتوانرێت قەدبڕ بۆ پەڕەی سەرەکی زیاد بکرێت</string>
+    <string name="title_show_google_app">نیشاندانی بەرنامەی گووگڵ</string>
+    <string name="msg_minus_one_on_left">کاتێک لە پەڕەی ماڵەوە بەرەو لای ڕاست دەڕۆیت</string>
+    <string name="msg_minus_one_on_right">کاتێک لە پەڕەی ماڵەوە بەرەو لای چەپ دەڕۆیت</string>
+    <string name="pref_themed_icons_title">بەکارهێنانی وێنۆچکە ڕەنگاوڕەنگەکان لە لیستی بەرنامەکاندا</string>
+    <string name="pref_themed_icons_summary">شوێنکەوتنی وێنۆچکە ڕەنگاوڕەنگەکان کە لە پەڕەی ماڵەوەدا بەکارهێنراون</string>
+    <string name="desktop_show_labels">نیشاندانی ناوی وێنۆچکەکان لەسەر ڕوونمای سەرەکی</string>
+    <string name="drawer_show_labels">نیشاندانی ناوی وێنۆچکەکان لە ناو لیستی بەرنامەکاندا</string>
+    <string name="trust_apps_manager_name">بەرنامە پارێزراو و شاردراوەکان</string>
+    <string name="trust_apps_auth_manager">بۆ بەڕێوەبردنی بەرنامە پارێزراو و شاردراوەکان پشکنینی ناسنامە ئەنجام بدە</string>
+    <string name="trust_apps_auth_open_app">بۆ کردنەوەی %1$s ناسنامەکەت بپشکنە</string>
+    <string name="trust_apps_loading">بارکردن…</string>
+    <string name="trust_apps_no_lock_error">تکایە قوفڵێکی ڕوونمای پارێزراو دابنێ بۆ سنووردارکردنی دەستگەیشتن بە بەرنامەکان</string>
+    <string name="trust_apps_help">یارمەتی</string>
+    <string name="trust_apps_info_hidden">بەرنامە شاردراوەکان و ویجێتەکانیان لە لیستی بەرنامەکان دەشاردرێنەوە</string>
+    <string name="trust_apps_info_protected">بەرنامە پارێزراوەکان پێویستیان بە پشکنینی ناسنامە هەیە بۆ ئەوەی بکرێنەوە</string>
+    <string name="pref_suggestions_title">پێشنیارەکان</string>
+    <string name="pref_suggestions_summary">بۆ پێشنیارکردنی بەرنامەکان لە لیستی بەرنامەکان و پەڕەی ماڵەوەدا</string>
+</resources>

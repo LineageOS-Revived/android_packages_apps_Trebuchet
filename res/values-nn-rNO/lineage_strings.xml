@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="settings_lock_layout_title">Lås oppsettet</string>
+    <string name="settings_lock_layout_summary_on">Ikon og miniprogram kan ikkje leggjast til, fjernast eller flyttast på startskjermen</string>
+    <string name="settings_lock_layout_summary_off">Ikon og miniprogram kan leggjast til, fjernast og flyttast på startskjermen</string>
+    <string name="settings_edit_widgets_error">Det er ikkje mogleg å leggja til miniprogram på startskjermen</string>
+    <string name="title_show_google_app">Vis Google-appen</string>
+    <string name="msg_minus_one_on_left">Når du sveipar til høgre frå hovudskjermen</string>
+    <string name="msg_minus_one_on_right">Når du sveipar til venstre frå hovudskjermen</string>
+    <string name="pref_themed_icons_title">Bruk tema-ikon i app-skuffa</string>
+    <string name="pref_themed_icons_summary">Følg tema-ikona som er brukte på startskjermen</string>
+    <string name="desktop_show_labels">Vis tekst under ikona på skrivebordet</string>
+    <string name="drawer_show_labels">Vis tekst under ikona i app-skuffa</string>
+    <string name="trust_apps_manager_name">Gøymde og verna appar</string>
+    <string name="trust_apps_auth_manager">Lås opp for å styra gøymde og verna appar</string>
+    <string name="trust_apps_auth_open_app">Stadfest identitet for å opna %1$s</string>
+    <string name="trust_apps_loading">Lastar inn\u2026</string>
+    <string name="trust_apps_no_lock_error">Set opp ein trygg skjermlås for å avgrensa tilgangen til appar</string>
+    <string name="trust_apps_help">Hjelp</string>
+    <string name="trust_apps_info_hidden">Gøymde appar og miniprogramma deira er ikkje synlege i app-skuffa</string>
+    <string name="trust_apps_info_protected">Verna appar krev stadfesting for å opnast frå startskjermen</string>
+    <string name="pref_suggestions_title">Framlegg</string>
+    <string name="pref_suggestions_summary">For framlegg i app-skuffa og på startskjermen</string>
+</resources>
